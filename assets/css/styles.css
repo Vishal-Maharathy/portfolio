@@ -351,9 +351,15 @@ img {
 }
 
 .work__img img {
-  transition: 1s;
+  height: 230px;
+  width: auto;
+  transition: .5s;
 }
 
+.portfolio-flexbox{
+  display: flex;
+  justify-content: space-around;
+}
 .work__img img:hover {
   transform: scale(1.1);
 }
