@@ -181,8 +181,7 @@ img {
   font-size: 3rem;
 }
 .home__social {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 .home__social-icon {
   width: -webkit-max-content;

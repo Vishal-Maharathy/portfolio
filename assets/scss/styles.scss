@@ -201,8 +201,9 @@ img{
         }
     }
     &__social{
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
+        text-align: center;
         &-icon{
             width: max-content;
             margin-bottom: ($mb-2);
