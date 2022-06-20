@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/scss/styles.css">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -36,18 +36,21 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Vishal M</span><br> </h1>
-
-                    <a href="https://www.linkedin.com/in/vishal-maharathy-96a720118/" class="button">Contact</a>
+            <section class="home" id="home">
+                <div id="home-child1">
+                    <div class="home__data">
+                        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Vishal M</span><br> </h1>
+                        <a href="https://www.linkedin.com/in/vishal-maharathy-96a720118/" class="button">Contact</a>
+                    </div>
+                    <div class="home__text">
+                        I am into<br>
+                        <span class="auto-type"></span>
+                    </div>
                 </div>
-
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/vishal-maharathy-96a720118/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="https://github.com/Vishal-Maharathy" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
-
             
             </section>
 
@@ -124,7 +127,7 @@
                 <h2 class="section-title">Portfolio</h2>
 
                 <div class="work__container portfolio-flexbox">
-                    <a href="http://44.238.38.106:8000/signin" class="work__img">
+                    <a href="http://44.238.38.106:8000/" class="work__img">
                         <img src="assets/img/work1.jpg" alt="">
                     </a>
                 </div>
@@ -146,5 +149,14 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            let typed = new Typed('.auto-type', {
+                strings: ['Coding', 'Web-Development', 'Tech'],
+                typeSpeed : 100,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>
     </body>
 </html>
