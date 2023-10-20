@@ -91,6 +91,14 @@ img {
   align-items: center;
   font-weight: 600;
 }
+.work-experience {
+  margin-left: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the spacing between job entries */
+  width: 56vw;
+}
 
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -393,13 +401,21 @@ img {
     font-size: 32px !important;
   }
   #home-child1 .home__text span {
-    color: #006bff;
+    color: #dedede;
   }
 
   .home__social {
     display: inline-block !important;
     margin-left: 50%;
     transform: translateX(-50%);
+  }
+  .work-experience {
+    margin-left: 0px !important;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* AdZjust the spacing between job entries */
+    width: 56vw;
   }
 }
 @media screen and (min-width: 576px) {
@@ -450,6 +466,7 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  
   body {
     margin: 0;
   }
