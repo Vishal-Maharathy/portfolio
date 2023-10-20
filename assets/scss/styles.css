@@ -375,6 +375,10 @@ img {
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 450px) {
+  svg{
+    width: 60px;
+    height: 60px;
+  }
   #home-child1 {
     display: block !important;
     justify-content: space-around;
@@ -401,7 +405,7 @@ img {
     font-size: 32px !important;
   }
   #home-child1 .home__text span {
-    color: #dedede;
+    color: #005f7f;
   }
 
   .home__social {
@@ -410,12 +414,10 @@ img {
     transform: translateX(-50%);
   }
   .work-experience {
-    margin-left: 0px !important;
-    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
-    gap: 20px; /* AdZjust the spacing between job entries */
-    width: 56vw;
+    gap: 20px;
+    width: 86vw !important;
   }
 }
 @media screen and (min-width: 576px) {
